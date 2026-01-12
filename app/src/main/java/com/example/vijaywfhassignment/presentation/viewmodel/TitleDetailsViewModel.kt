@@ -1,6 +1,5 @@
 package com.example.vijaywfhassignment.presentation.viewmodel
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.vijaywfhassignment.data.remote.dto.TitleDetailsResponse

@@ -19,10 +19,4 @@ class MainViewModel @Inject constructor(
     val movies = repo.getPagedMovies().cachedIn(viewModelScope)
     val tvShows = repo.getPagedTvShows().cachedIn(viewModelScope)
 
-    private val _details = MutableStateFlow<Result<TitleDetailsResponse>?>(null)
-    val details = _details.asStateFlow()
-
-    fun loadDetails(id: Int) = viewModelScope.launch {
-        _details.value = repo.getDetails(id)
-    }
 }

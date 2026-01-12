@@ -152,6 +152,8 @@ The submission includes:
     * Error scenarios
     * At least 4 user inputs/interactions
 
+[Video Assignment Overview](https://drive.google.com/file/d/1zImrkGUPiTV5xSvI8gjj-2ZEb7ZC6dmz/view?usp=sharing)
+
 ---
 
 ## 📦 APK
